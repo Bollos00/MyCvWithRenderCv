@@ -1,0 +1,7 @@
+# APM-generated files
+apm.lock.yaml
+apm_modules/
+.agents/
+.github/
+rendercv_output/
+.vscode/

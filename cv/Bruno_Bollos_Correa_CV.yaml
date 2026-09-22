@@ -1,0 +1,91 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Bruno Bollos Correa
+  headline: "Software Engineer Specialist"
+  location: "São Paulo, SP, Brazil"
+  email: bollos@outlook.com
+  photo: linkedin_photo.jpg
+  social_networks:
+    - network: LinkedIn
+      username: bollos00
+    - network: GitHub
+      username: Bollos00
+    # - network: GitLab
+    #   username: Bollos00
+  sections:
+    Skills:
+      - bullet: "**Programming Languages:** C++, Python, C#, Java, SQL"
+      - bullet: "**Technologies:** Qt, FastAPI, Docker, .NET, Git, Linux, PostgreSQL, Neo4j, SQL Server, ActiveMQ, RabbitMQ, Redis, OPC"
+      - bullet: "**Human Languages:** Portuguese (native), English (C1), Spanish (B1)"
+    Experience:
+      - company: "RoboFEI"
+        position: "Software Developer"
+        start_date: "2019-04"
+        end_date: "2022-11"
+        highlights:
+          - "Developed software for the [RoboFEI SSL team](https://gitlab.com/robofei/ssl) **autonomous robotic soccer system**."
+          - "Participated in five robotics competitions, most notably **RoboCup 2022** in Bangkok, THA."
+          - "[**Undergraduate research:**](https://github.com/Bollos00/IC) Implemented **supervised learning** techniques applied to evaluating the success of actions in robot soccer"
+          - "**Skills:** C++, Qt, Python, Git, Robotics, Linux, scikit-learn."
+      - company: Alstom
+        position: "Software Engineer"
+        start_date: "2023-02"
+        end_date: present
+        highlights:
+          - "Delivered software solutions for **railway control and supervision systems** across projects in Brazil, Colombia, and Chile, designing project-specific architectures, coordinating subsystem interfaces, and collaborating with international engineering teams."
+          - "**Handled 400+ engineering tickets** for São Paulo Metro Lines 1, 2, and 3, performing root-cause analysis and delivering software and configuration fixes that contributed directly to a major project milestone."
+          - "**Promoted in 2025** in recognition of delivery impact, autonomy, agility, and work quality."
+          - "**Pioneered AI-assisted software development** at Alstom Brazil by introducing GitHub Copilot, driving its adoption across the site, and serving as the local Ambassador."
+          - "**Skills:** C++, C#/.NET, Git, GitLab CI/CD, SQL Server, ActiveMQ, OPC, Docker."
+    Projects:
+      - name: "[LibreMines](https://github.com/Bollos00/LibreMines)"
+        start_date: "2020-04"
+        end_date: present
+        summary: "_Cross-platform, open-source, Qt-based Minesweeper game for desktop systems._"
+        highlights:
+          - "Skills: C++, Qt, CMake, GitHub Actions."
+      - name: "[Undergraduate Thesis](https://github.com/Bollos00/TCC)"
+        start_date: "2022-02"
+        end_date: "2022-12"
+        location: "FEI and São Paulo Metro"
+        summary: "_Route-planning and indoor-navigation solution for the São Paulo Metro._"
+        highlights:
+          - "Skills: Python, FastAPI, PostgreSQL, Neo4j, Docker, Java, Android, Embedded Systems."
+      - name: "[MBA Capstone Project](https://github.com/Bollos00/BusPisSystem)"
+        start_date: "2025-03"
+        end_date: "2026-02"
+        location: "MBA USP/Esalq"
+        summary: "_Real-time bus tracking and passenger information system._"
+        highlights:
+          - "Skills: Python, FastAPI, PostgreSQL, React, TypeScript, RabbitMQ, Redis, Docker, Git."
+    Education:
+      - institution: "University Center of FEI"
+        area: Electrical Engineering
+        degree: "BEng"
+        start_date: "2018-01"
+        end_date: "2022-12"
+        location: "São B. do Campo, SP, Brazil"
+        summary: "_Graduated top of the class with a CGPA: 8,4/10_"
+      - institution: "USP/Esalq"
+        area: Software Engineering
+        degree: "MBA"
+        start_date: "2024-05"
+        end_date: "2026-02"
+        location: "Piracicaba, SP, Brazil"
+    # Selected_Honors:
+    #   - bullet: 
+design:
+  theme: classic
+  page:
+    show_top_note: false
+    show_footer: false
+
+locale:
+  language: english
+
+settings:
+  render_command:
+    output_folder: rendercv_output/english
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_png: true

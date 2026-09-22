@@ -1,0 +1,11 @@
+name: my-cv-with-rendercv
+version: 1.0.0
+description: CV project with the RenderCV agent skill
+
+dependencies:
+  apm:
+    - rendercv/rendercv-skill
+
+mcp: []
+includes: auto
+scripts: {}
