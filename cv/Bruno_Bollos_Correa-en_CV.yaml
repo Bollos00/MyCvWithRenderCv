@@ -86,6 +86,7 @@ locale:
 settings:
   render_command:
     output_folder: rendercv_output/english
+    pdf_path: rendercv_output/english/Bruno_Bollos_Correa-en_CV.pdf
     dont_generate_markdown: true
     dont_generate_html: true
     dont_generate_png: true
