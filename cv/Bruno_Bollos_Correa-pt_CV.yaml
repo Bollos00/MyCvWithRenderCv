@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Bruno Bollos Correa
-  headline: "Engenheiro de Software Especialista"
+  headline: "Eng. de Software | Sistemas de Controle Ferroviário | C++, C#/.NET & Python | IA & Automação"
   location: "São Paulo, SP, Brasil"
   email: bollos@outlook.com
   photo: linkedin_photo.jpg
@@ -18,15 +18,6 @@ cv:
       - bullet: "**Tecnologias:** Qt, FastAPI, Docker, .NET, Git, Linux, PostgreSQL, Neo4j, SQL Server, ActiveMQ, RabbitMQ, Redis, OPC"
       - bullet: "**Idiomas:** Português (nativo), Inglês (C1), Espanhol (B1)"
     Experiência:
-      - company: "RoboFEI"
-        position: "Desenvolvedor de Software"
-        start_date: "2019-04"
-        end_date: "2022-11"
-        highlights:
-          - "Desenvolveu software para o **sistema autônomo de futebol de robôs** da [RoboFEI SSL](https://gitlab.com/robofei/ssl)."
-          - "Participou de cinco competições de robótica; ênfase **RoboCup 2022**, em Bangkok, THA."
-          - "[**Pesquisa de iniciação científica:**](https://github.com/Bollos00/IC) Implementou técnicas de **aprendizado supervisionado** aplicadas à avaliação do sucesso de ações no futebol de robôs."
-          - "**Competências:** C++, Qt, Python, Git, Robótica, Linux, scikit-learn."
       - company: Alstom
         position: "Engenheiro de Software"
         start_date: "2023-02"
@@ -37,6 +28,15 @@ cv:
           - "**Promovido em 2025**, reconhecido pelo impacto nas entregas, autonomia e agilidade."
           - "**Pioneiro no desenvolvimento de software assistido por IA** na Alstom Brasil ao introduzir o GitHub Copilot, liderar sua adoção na unidade e atuar como Embaixador local."
           - "**Competências:** C++, C#/.NET, Git, GitLab CI/CD, SQL Server, ActiveMQ, OPC, Docker."
+      - company: "RoboFEI"
+        position: "Desenvolvedor de Software"
+        start_date: "2019-04"
+        end_date: "2022-11"
+        highlights:
+          - "Desenvolveu software para o **sistema autônomo de futebol de robôs** da [RoboFEI SSL](https://gitlab.com/robofei/ssl)."
+          - "Participou de cinco competições de robótica; ênfase **RoboCup 2022**, em Bangkok, THA."
+          - "[**Pesquisa de iniciação científica:**](https://github.com/Bollos00/IC) Implementou técnicas de **aprendizado supervisionado** aplicadas à avaliação do sucesso de ações no futebol de robôs."
+          - "**Competências:** C++, Qt, Python, Git, Robótica, Linux, scikit-learn."
     Projetos:
       - name: "[LibreMines](https://github.com/Bollos00/LibreMines)"
         start_date: "2020-04"
