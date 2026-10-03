@@ -4,7 +4,7 @@ cv:
   headline: "Eng. de Software | Sistemas de Controle Ferroviário | C++, C#/.NET & Python | IA & Automação"
   location: "São Paulo, SP, Brasil"
   email: bollos@outlook.com
-  photo: ../linkedin_photo.jpg
+  # photo: linkedin_photo.jpg
   social_networks:
     - network: LinkedIn
       username: bollos00
@@ -85,8 +85,9 @@ locale:
 
 settings:
   render_command:
-    output_folder: ../rendercv_output/alts
-    pdf_path: ../rendercv_output/alts/Bruno_Bollos_Correa(photo)-pt_CV.pdf
+    output_folder: ../rendercv_output
+    pdf_path: ../rendercv_output/Bruno_Bollos_Correa(railway)-pt_CV.pdf
+    typst_path: ../rendercv_output/Bruno_Bollos_Correa(railway)-pt_CV.typst
     dont_generate_markdown: true
     dont_generate_html: true
     dont_generate_png: true

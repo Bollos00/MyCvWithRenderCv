@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Bruno Bollos Correa
-  headline: "Eng. de Software | Sistemas de Controle Ferroviário | C++, C#/.NET & Python | IA & Automação"
+  headline: "Eng. de Software | Sistemas Distribuídos de Missão Crítica | Backend | C++, C#/.NET, Python | IA & Automação"
   location: "São Paulo, SP, Brasil"
   email: bollos@outlook.com
-  # photo: linkedin_photo.jpg
+  # photo: ../linkedin_photo.jpg
   social_networks:
     - network: LinkedIn
       username: bollos00
@@ -85,8 +85,9 @@ locale:
 
 settings:
   render_command:
-    output_folder: rendercv_output
-    pdf_path: rendercv_output/Bruno_Bollos_Correa-pt_CV.pdf
+    output_folder: ../rendercv_output
+    pdf_path: ../rendercv_output/Bruno_Bollos_Correa(general)-pt_CV.pdf
+    typst_path: ../rendercv_output/Bruno_Bollos_Correa(general)-pt_CV.typst
     dont_generate_markdown: true
     dont_generate_html: true
     dont_generate_png: true

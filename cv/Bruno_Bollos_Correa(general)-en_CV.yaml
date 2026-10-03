@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Bruno Bollos Correa
-  headline: "Software Engineer | Railway Control Systems | C++, C#/.NET & Python | AI & Automation"
-  location: "São Paulo, SP, Brazil"
+  headline: "Software Engineer| Mission-Critical Distributed Systems | Backend | C++, Python, C#/.NET | AI & Automation"
+  location: "São Paulo, SP, Brazil (UTC-3)"
   email: bollos@outlook.com
-  # photo: linkedin_photo.jpg
+  # photo: ../linkedin_photo.jpg
   social_networks:
     - network: LinkedIn
       username: bollos00
@@ -35,7 +35,7 @@ cv:
         highlights:
           - "Developed software for the [RoboFEI SSL team](https://gitlab.com/robofei/ssl) **autonomous robotic soccer system**."
           - "Participated in five robotics competitions, most notably **RoboCup 2022** in Bangkok, THA."
-          - "Conducted [**undergraduate research**](https://github.com/Bollos00/IC) implementing **supervised learning** techniques applied to evaluate the success of actions in robot soccer"
+          - "Conducted [**undergraduate research**](https://github.com/Bollos00/IC) implementing **supervised learning** techniques applied to evaluate the success of actions in robot soccer."
           - "**Skills:** C++, Qt, Python, Git, Robotics, Linux, scikit-learn."
     Projects:
       - name: "[LibreMines](https://github.com/Bollos00/LibreMines)"
@@ -87,8 +87,9 @@ locale:
 
 settings:
   render_command:
-    output_folder: rendercv_output
-    pdf_path: rendercv_output/Bruno_Bollos_Correa-en_CV.pdf
+    output_folder: ../rendercv_output
+    pdf_path: ../rendercv_output/Bruno_Bollos_Correa(general)-en_CV.pdf
+    typst_path: ../rendercv_output/Bruno_Bollos_Correa(general)-en_CV.typst
     dont_generate_markdown: true
     dont_generate_html: true
     dont_generate_png: true
