@@ -43,10 +43,7 @@ rendercv render cv/Bruno_Bollos_Correa-pt_CV.yaml --watch
 
 > The `--watch` option keeps the render process running and automatically updates the output when the YAML files change. 
 
-The generated files are written to:
-
-- `cv/rendercv_output/english/`
-- `cv/rendercv_output/portuguese/`
+The generated files are written to: `cv/rendercv_output/`
 
 Each directory contains the rendered PDF and its corresponding Typst source. 
 
