@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Bruno Bollos Correa
-  headline: "Eng. de Software | Sistemas Distribuídos de Missão Crítica | Backend | C++, C#/.NET, Python | IA & Automação"
+  headline: "Engenheiro de Software | Sistemas Distribuídos & de Missão Crítica | Backend | C++, Python, C#/.NET"
   location: "São Paulo, SP, Brasil"
   email: bollos@outlook.com
   # photo: ../linkedin_photo.jpg
@@ -13,6 +13,8 @@ cv:
     # - network: GitLab
     #   username: Bollos00
   sections:
+    Resumo:
+      - Engenheiro de Software com mais de 7 anos de experiência, sendo 3 deles no desenvolvimento de sistemas ferroviários de controle e supervisão de alta disponibilidade na América Latina. Experiência com C++, C#/.NET e Python; arquiteturas orientadas a eventos, microsserviços, monólitos, OPC, pipelines de CI/CD e análise de causa-raiz em grandes bases de código. Entusiasta em práticas modernas de engenharia, da automação com CI/CD ao desenvolvimento com agentes de IA.
     Competências:
       - bullet: "**Linguagens de Programação:** C++, Python, C#, Java, SQL"
       - bullet: "**Tecnologias:** Qt, FastAPI, Docker, .NET, Git, Linux, PostgreSQL, Neo4j, SQL Server, ActiveMQ, RabbitMQ, Redis, OPC"
@@ -24,10 +26,9 @@ cv:
         end_date: present
         highlights:
           - "Entregou soluções de software para **sistemas de controle e supervisão ferroviária** em projetos no Brasil, na Colômbia e no Chile, projetando arquiteturas, coordenando interfaces entre subsistemas e colaborando com times internacionais."
-          - "**Tratou mais de 400 tickets de engenharia** para as Linhas 1, 2 e 3 do Metrô de São Paulo, realizando análise de causa-raiz e entregando correções de software e configuração que contribuíram diretamente para uma importante etapa do projeto."
+          - "**Tratou mais de 400 tickets de engenharia** ao longo de dois anos em um sistema legado das Linhas 1, 2 e 3 do Metrô de São Paulo, realizando análise de causa-raiz e entregando correções de software e configuração que contribuíram para uma entrega do projeto."
           - "**Promovido em 2025**, reconhecido pelo impacto nas entregas, autonomia e agilidade."
-          - "**Pioneiro no desenvolvimento de software assistido por IA** na Alstom Brasil ao introduzir o GitHub Copilot, liderar sua adoção na unidade e atuar como Embaixador local."
-          - "**Competências:** C++, C#/.NET, Git, GitLab CI/CD, SQL Server, ActiveMQ, OPC, Docker."
+          - "**Pioneiro no desenvolvimento de software assistido por IA** ao introduzir o GitHub Copilot, impulsionar sua adoção entre 40+ engenheiros e atuar como Embaixador local."
       - company: "RoboFEI"
         position: "Desenvolvedor de Software"
         start_date: "2019-04"
@@ -36,28 +37,21 @@ cv:
           - "Desenvolveu software para o **sistema autônomo de futebol de robôs** da [RoboFEI SSL](https://gitlab.com/robofei/ssl)."
           - "Participou de cinco competições de robótica; ênfase **RoboCup 2022**, em Bangkok, THA."
           - "Realizou pesquisa de [**iniciação científica**](https://github.com/Bollos00/IC) implementando técnicas de **aprendizado supervisionado** aplicadas à avaliação do sucesso de ações no futebol de robôs."
-          - "**Competências:** C++, Qt, Python, Git, Robótica, Linux, scikit-learn."
     Projetos:
       - name: "[LibreMines](https://github.com/Bollos00/LibreMines)"
         start_date: "2020-04"
         end_date: present
-        summary: "_Jogo de Campo Minado multiplataforma e de código aberto, baseado em Qt para desktop._"
-        highlights:
-          - "Competências: C++, Qt, CMake, GitHub Actions."
+        summary: "_Jogo de Campo Minado multiplataforma (Qt/C++) de código aberto (100+ ⭐ no GitHub)._"
       - name: "[Trabalho de Conclusão de Curso](https://github.com/Bollos00/TCC)"
         start_date: "2022-02"
         end_date: "2022-12"
         location: "FEI e Metrô de São Paulo"
-        summary: "_Planejamento de rotas e navegação indoor para o Metrô de São Paulo._"
-        highlights:
-          - "Competências: Python, FastAPI, PostgreSQL, Neo4j, Docker, Java, Android, Embarcados."
+        summary: "_Solução de planejamento de rotas e navegação indoor para o Metrô de São Paulo._"
       - name: "[Projeto de Conclusão do MBA](https://github.com/Bollos00/BusPisSystem)"
         start_date: "2025-03"
         end_date: "2026-02"
         location: "MBA USP/Esalq"
         summary: "_Sistema de rastreamento de ônibus e informação ao passageiro em tempo real._"
-        highlights:
-          - "Competências: Python, FastAPI, PostgreSQL, React, TypeScript, RabbitMQ, Redis, Docker."
     Educação:
       - institution: "Centro Universitário da FEI"
         area: Engenharia Elétrica
@@ -66,7 +60,7 @@ cv:
         end_date: "2022-12"
         location: "São B. do Campo, SP, Brasil"
         summary: "_Destaque acadêmico da turma com CRA: 8,4/10_"
-      - institution: "USP/Esalq"
+      - institution: "Universidade de São Paulo (USP/Esalq)"
         area: Engenharia de Software
         degree: "MBA"
         start_date: "2024-05"

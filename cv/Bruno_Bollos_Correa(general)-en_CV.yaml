@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Bruno Bollos Correa
-  headline: "Software Engineer| Mission-Critical Distributed Systems | Backend | C++, Python, C#/.NET | AI & Automation"
+  headline: "Software Engineer| Mission-Critical & Distributed Systems | Backend | C++, Python, C#/.NET"
   location: "São Paulo, SP, Brazil (UTC-3)"
   email: bollos@outlook.com
   # photo: ../linkedin_photo.jpg
@@ -13,6 +13,8 @@ cv:
     # - network: GitLab
     #   username: Bollos00
   sections:
+    Summary:
+      - Software Engineer with 7+ years of experience, 3 of them building high-availability railway control and supervision systems across Latin America, specializing in C++, C#/.NET, and Python. Experienced in event-driven architectures, microservices, monoliths, OPC, CI/CD pipelines, and root-cause analysis on large codebases. Passionate about modern engineering practices, from CI/CD automation to AI-native development with coding agents.
     Skills:
       - bullet: "**Programming Languages:** C++, Python, C#, Java, SQL"
       - bullet: "**Technologies:** Qt, FastAPI, Docker, .NET, Git, Linux, PostgreSQL, Neo4j, SQL Server, ActiveMQ, RabbitMQ, Redis, OPC"
@@ -24,10 +26,9 @@ cv:
         end_date: present
         highlights:
           - "Delivered software solutions for **railway control and supervision systems** across projects in Brazil, Colombia, and Chile, designing project-specific architectures, coordinating subsystem interfaces, and collaborating with international engineering teams."
-          - "**Handled 400+ engineering tickets** for São Paulo Metro Lines 1, 2, and 3, performing root-cause analysis and delivering software and configuration fixes that contributed directly to a major project milestone."
+          - "**Handled 400+ engineering tickets** over two years on a legacy system for the São Paulo Metro Lines 1, 2, and 3, performing root-cause analysis and delivering software and configuration fixes that contributed directly to a major project delivery."
           - "**Promoted in 2025** in recognition of delivery impact, autonomy, agility, and work quality."
-          - "**Pioneered AI-assisted software development** at Alstom Brazil by introducing GitHub Copilot, driving its adoption across the site, and serving as the local Ambassador."
-          - "**Skills:** C++, C#/.NET, Git, GitLab CI/CD, SQL Server, ActiveMQ, OPC, Docker."
+          - "**Pioneered AI-assisted software development** by introducing GitHub Copilot, driving its adoption among +40 engineers, and serving as the local Ambassador."
       - company: "RoboFEI"
         position: "Software Developer"
         start_date: "2019-04"
@@ -36,28 +37,21 @@ cv:
           - "Developed software for the [RoboFEI SSL team](https://gitlab.com/robofei/ssl) **autonomous robotic soccer system**."
           - "Participated in five robotics competitions, most notably **RoboCup 2022** in Bangkok, THA."
           - "Conducted [**undergraduate research**](https://github.com/Bollos00/IC) implementing **supervised learning** techniques applied to evaluate the success of actions in robot soccer."
-          - "**Skills:** C++, Qt, Python, Git, Robotics, Linux, scikit-learn."
     Projects:
       - name: "[LibreMines](https://github.com/Bollos00/LibreMines)"
         start_date: "2020-04"
         end_date: present
-        summary: "_Cross-platform, open-source, Qt-based Minesweeper game for desktop systems._"
-        highlights:
-          - "Skills: C++, Qt, CMake, GitHub Actions."
+        summary: "_Cross-platform, open-source, Qt/C++ Minesweeper game for desktop (100+ ⭐ on GitHub)._"
       - name: "[Undergraduate Thesis](https://github.com/Bollos00/TCC)"
         start_date: "2022-02"
         end_date: "2022-12"
         location: "FEI and São Paulo Metro"
         summary: "_Route-planning and indoor-navigation solution for the São Paulo Metro._"
-        highlights:
-          - "Skills: Python, FastAPI, PostgreSQL, Neo4j, Docker, Java, Android, Embedded Systems."
       - name: "[MBA Capstone Project](https://github.com/Bollos00/BusPisSystem)"
         start_date: "2025-03"
         end_date: "2026-02"
         location: "MBA USP/Esalq"
         summary: "_Real-time bus tracking and passenger information system._"
-        highlights:
-          - "Skills: Python, FastAPI, PostgreSQL, React, TypeScript, RabbitMQ, Redis, Docker, Git."
     Education:
       - institution: "University Center of FEI"
         area: Electrical Engineering
@@ -66,7 +60,7 @@ cv:
         end_date: "2022-12"
         location: "São B. do Campo, SP, Brazil"
         summary: "_Graduated top of the class with a CGPA: 8.4/10_"
-      - institution: "USP/Esalq"
+      - institution: "University of São Paulo (USP/Esalq)"
         area: Software Engineering
         degree: "MBA"
         start_date: "2024-05"
